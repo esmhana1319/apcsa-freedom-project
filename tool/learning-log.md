@@ -4,9 +4,9 @@
 
 ## Project: **Cat Cam**
 
+10/4/25
 
-
-OpenCV has a full course on freecodecamp which ill link [here](https://www.freecodecamp.org/news/opencv-full-course/); its a source that interprets and manipulates images, some essential functions include 
+OpenCV has a full course on freecodecamp which ill link [here](https://www.freecodecamp.org/news/opencv-full-course/); its a source that interprets and manipulates images
 
 ```python
 import cv2 as cv
@@ -34,12 +34,6 @@ cv.waitKey(0)
 ```
 
 Whats great is that with these two functions we learn at the beginning of the video, im already recognizing a way that it can be connected or repurposed to my freedom project. For my next log id like to aim to testing this out with my computer webcam and testing if i can run the video in a new window. 
-
-### X/X/XX:
-* Text
-
-### X/X/XX:
-* Text
 
 
 <!-- 
