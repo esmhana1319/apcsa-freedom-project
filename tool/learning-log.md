@@ -11,21 +11,21 @@ OpenCV has a full course on freecodecamp which ill link [here](https://www.freec
 ```python
 import cv2 as cv
 
-image = cv.imread('Img/Cat.jpg') //this reads the image sourced from your files 
+image = cv.imread('Img/Cat.jpg') #this reads the image sourced from your files 
 
-cv.imshow('Cat', img) //this shows it on a new window
+cv.imshow('Cat', img) #this shows it on a new window
 
 cv.waitKey(0) 
 ```
 
 ```python
-capture = cv.VideoCapture(0) //connects to webcam via int 0, but in the parantheses youd usually put the link to a video already existing//
+capture = cv.VideoCapture(0) #connects to webcam via int 0, but in the parantheses youd usually put the link to a video already existing
 
 while True;
-  isTrue, frame = capture.read //this line reads the video frame by frame as it runs//
+  isTrue, frame = capture.read #this line reads the video frame by frame as it runs//
 cv.imshow('video', frame)
 
-if.cv.waitKey(20) & 0xFF==ord('d'): //in order to stop the video from playing indefinetly, we stop the video when d is pressed; which wont be needed in the case of my freedom project but is good to know//
+if.cv.waitKey(20) & 0xFF==ord('d'): #in order to stop the video from playing indefinetly, we stop the video when d is pressed; which wont be needed in the case of my freedom project but is good to know//
     break
 capture.release()
 cv.destroyAllWindows() 
