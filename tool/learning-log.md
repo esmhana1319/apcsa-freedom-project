@@ -60,7 +60,14 @@ t1 = tf.constant([0, 1, 2, 3, 4, 5, 6, 7])
 t1
 ```
 
-in order to slice, wed use ```s1 = tf.slice(t1, begin=[start#], size=[stop#])```; or ```s1 = t1[start#:stop#]```
+in order to slice, wed use 
+```python 
+s1 = tf.slice(t1, begin=[start#], size=[stop#])
+```;
+or 
+```python
+s1 = t1[start#:stop#]
+```
 
 
 
