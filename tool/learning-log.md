@@ -37,6 +37,32 @@ Whats great is that with these two functions we learn at the beginning of the vi
 
 ### 11/2/25
 
+the great news is that i successfully downloaded tensorflow on my device, but the bad news is i have less than 5% of storage left. On a better note, tensorflow has a lot of available resources to go off of. 
+
+the one i am using at the moment is [geeksforgeeks](https://www.geeksforgeeks.org/deep-learning/tensorflow/) 
+
+tensors are fundamental data structures that can represent multidimensional arrays like this
+
+```
+[[],[],
+[],[]}
+```
+
+they can be Scalars (0) , Vectors (1) , Matrices (2) , and higher dimensional arrays (>2); A 2x3 matrix will contain 2 rows 3 columns 
+
+A lot of the skills we learnt in SEP11 are paramount to Tesor indexing, such as methods used for slicing and inserting. 
+
+For instance say we had this array; 
+
+```python
+import tensorflow as tf
+t1 = tf.constant([0, 1, 2, 3, 4, 5, 6, 7])
+t1
+```
+
+in order to slice, wed use ```s1 = tf.slice(t1, begin=[start#], size=[stop#])```; or ```s1 = t1[start#:stop#]```
+
+
 
 
 
