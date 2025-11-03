@@ -63,7 +63,7 @@ t1
 in order to slice, wed use 
 ```python 
 s1 = tf.slice(t1, begin=[start#], size=[stop#])
-```;
+```
 or 
 ```python
 s1 = t1[start#:stop#]
