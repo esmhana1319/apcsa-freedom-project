@@ -69,7 +69,27 @@ or
 s1 = t1[start#:stop#]
 ```
 
+### 11/16/25
 
+some good news is that ive been learning python in my weekly meetings with Girls.incs coding bootcamp; some bad news is that we are so behind we havent started on making our own ai yet. Have i been misdirected or am i just impatient? Im not sure exactly but lets get started with some Mediapipe!!
+
+I downloaded mediapipe to my terminal via ```pip install mediapipe``` led by [this website](https://pypi.org/project/mediapipe/) and [MediaPipes python framework](https://chuoling.github.io/mediapipe/getting_started/python_framework.html) section that had some really good pointers
+
+<img width="730" height="638" alt="Screenshot 2025-11-16 at 9 54 38 PM" src="https://github.com/user-attachments/assets/af9c4700-bc7d-4eb7-b31b-c8e1ce4b899c" />
+
+one of the code snippets that stook out to me here was 
+
+```python
+create_image_frame(format=ImageFormat.SRGB,data=mat) 
+```
+
+Similar to OpenCV, MediaPipe also works with videos, and Image Frames are their container for a video or picture. In order to get the pixel data for arrays you can use 
+
+```python
+image_frame.numpy_view()
+```
+
+One thing to note for the future is that downloading mediapipe took up a lot more of my space alongside tensor flow, if theres any alternative ways i could free up space ill look into them soon. 
 
 
 
