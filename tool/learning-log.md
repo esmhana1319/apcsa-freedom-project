@@ -91,7 +91,22 @@ image_frame.numpy_view()
 
 One thing to note for the future is that downloading mediapipe took up a lot more of my space alongside tensor flow, if theres any alternative ways i could free up space ill look into them soon. 
 
+### 12/7/25 
 
+I looked into an alternate way to do my project without taking up as much space in the ide that i use for my APCSA assignments from our meetings in the coding bootcamp i signed up for. Currently we are using VSCODE, which i connected to my github account and am teaching myself the wraps of. The great news is that its extremely similar to cs50s IDE despite having a couple different shortcuts. 
+
+As for what ive recently took notes on during said meetings, weve been delving into the AI side and will probably start coding our own in the next sessions. 
+
+Models learn from datasets, which are a collection of labeled examples. 
+ie, if you're training an AI to recognize cats in my case, the dataset would contain images of cats labeled as "cat" and images of things other than cats labeled as "not cats."
+When the computer gives a wrong answer, it does a calculation on how to adapt to be less wrong over time. 
+
+Different algorithms are used for learning and their common goal is to minimize the error between the model's predictions and the actual labels in the training data. The Ai will make predictions and a function will measure the difference between these predictions and the correct answers. It will constantly adapt to these parameters to reduce the chance of it being  wrong; AI learning 
+
+Iteration, refinement and creating successful datasets are the main things i should focus on in future logs. My aim overall for this project is to make an ai that can recognize my cats behavior, i can focus on outputting that in a user friendly format later on. 
+
+
+On a positive note, Vidhi and Copeland are great networks to expand my knowledge on this stuff, i plan to send an email their way if the meetings we have later on are a bit slow so i can manage my time wisely and get ahead on information regarding more resources that can help me build an Machine Learning Model as a complete noob to the concept. 
 
 
 <!-- 
