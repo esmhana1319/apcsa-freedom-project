@@ -82,7 +82,7 @@ developed skill *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
   using selective notes to retain information lvl 6
 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 ```
-   Another skill ive developed was quickly learning and keeping myself open to other tools outside of what ive already adjusted to. VScode and groq were things that i hadnt had used before in SEP or other coding programs ive been in, but i found that when i took notes and tried my 
+   Another skill ive developed was quickly learning and keeping myself open to other tools outside of what ive already adjusted to. VScode and groq were things that i hadnt had used before in SEP or other coding programs ive been in, but i found that when i took notes and tried my best to understand the fundamentals, it became easier to get used to 
 ```
 developed skill *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
   timely adjustment lvl 7
