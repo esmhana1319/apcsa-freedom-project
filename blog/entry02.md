@@ -33,6 +33,66 @@ In SMART goals though, i have to reword this to be
 
 So in other words, by the end of break i want to take a couple hours out of my free days to build something with tensor flow thats able to discern different cat behaviors with a self made data set. I know outside distractions will be tempting, so avoiding them will definitely align to my best interests.
 
+### Sources 
+
+##### Previous 
+1. [Swift](https://developer.apple.com/ios/get-started/) Documentation; this is where i got to learn how it works and what kind of things i can create with this tool.
+
+2. [OpenCV](https://docs.opencv.org/4.x/d0/d3d/tutorial_general_install.html) Documentation; ive been using [freecodecamps course](https://www.freecodecamp.org/news/opencv-full-course/) to learn the wraps of how it works along with their youtube tutorials
+
+3. [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) Documentation; Aswell as [this website](https://chuoling.github.io/mediapipe/) which ive been using to get started
+
+4. [TensorFlow](https://www.tensorflow.org/) Documentation, along with [this website](https://www.geeksforgeeks.org/python/introduction-to-tensorflow/) that ive been using to get the hang of it
+
+##### Current 
+
+1. VSCODE - this is the ide we have been using during meetings to work with ai
+   
+2. GROQ - the website we have been using to access and create api keys that can be used within our code
+   
+3. [NeuralNine](https://www.youtube.com/watch?v=72s6hJwyfDg)  and  [FireShips](https://youtu.be/PeMlggyqz0Y?si=-9MhlJIidMM3NJRe)  crash course videos on TensorFlow and Machine Learning Models 
+
+### EDP 
+
+The steps of the Engineering and design process consist of... 
+
+#### 1. Defining the problem [x]
+   
+#### 2.Research the problem [x]
+
+#### 3.Brainstorm possible solutions [x]
+
+#### 4.Plan the most promising solution [x]
+
+#### 5.Create a prototype [ ]
+
+#### 6.Test and evaluate the prototype [ ] 
+
+#### 7.Improve as needed [ ]
+
+#### 8.Communicate the results [ ]
+
+   Currently, i am on steps 3 through 5. I have defined the problem that i want to solve, and now am currently brainstorming and planning how i will start creating my prototype
+
+  ### Skills 
+
+   A skill ive developed here was notetaking. The bootcamps meetings last between an hour and an hour thirty minutes, so ive had to discern what information to retain from what was already understood. 
+```
+developed skill *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  using selective notes to retain information lvl 6
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+```
+   Another skill ive developed was quickly learning and keeping myself open to other tools outside of what ive already adjusted to. VScode and groq were things that i hadnt had used before in SEP or other coding programs ive been in, but i found that when i took notes and tried my 
+```
+developed skill *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  timely adjustment lvl 7
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+```
+
+
+[Next](entry02.md)
+
+[Home](../README.md)
 
 
 
