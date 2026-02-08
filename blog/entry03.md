@@ -44,6 +44,12 @@ After this we quickly move on to linear regression models, which are primarily b
 
 <img width="749" height="771" alt="Screenshot 2026-02-08 at 1 46 00 PM" src="https://github.com/user-attachments/assets/3bac6bb1-6d1e-4ccf-98f0-4d36bcfd8df6" />
 
+Here was where i ran into my first couple issues where i had to install certain things into vscode terminal in order to properly import them in my py file. What i wasnt able to solve though was gaining access to the colab dataset used within the linear regression course shown below.  
+
+<img width="595" height="507" alt="Screenshot 2026-02-08 at 1 51 59 PM" src="https://github.com/user-attachments/assets/9c2a18aa-98a9-4cb0-8666-f0100143fbd7" />
+
+I tried a couple different datasets out to see if theyd work but encountered the same error, for a future log id like to demo this model with my own data set and see if i can incorporate what i learn here into something ill use for my projects model. 
+
 
 ### Sources 
 
