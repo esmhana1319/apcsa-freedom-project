@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: TENSORFLOW, OPENCV, MEDIAPIPE, SWIFT
+## Product: Digital Cat Watcher  
 
 ---
 
@@ -9,13 +9,19 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Edit Machine learning model to go off of personal cat dataset (deadline: 4/4)
+  - [ ] Create cat dataset (deadline: 3/20)
+  - [ ] Debug Machine Learning Model (deadline: 4/2)
+     
+- [ ] Make sure MLM is able to respond to information from the computer visual (deadline: 5/1)
+  - [ ] Connect Open CV code to the Tensor AI (deadline: 4/20)
+  - [ ] Debug Open CV code if needed (deadline: 5/1)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Create an app on swift that delivers this information (deadline: 5/1)
+  - [ ] design app visual (deadline: 4/30)
+  - [ ] connect app to responses from the updating MLM and CV (deadline: 5/1)
 
 
 <!-- EXAMPLE
