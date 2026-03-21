@@ -108,6 +108,75 @@ Iteration, refinement and creating successful datasets are the main things i sho
 
 On a positive note, Vidhi and Copeland are great networks to expand my knowledge on this stuff, i plan to send an email their way if the meetings we have later on are a bit slow so i can manage my time wisely and get ahead on information regarding more resources that can help me build an Machine Learning Model as a complete noob to the concept. 
 
+3/21/26
+
+Ive been learning how to draw, preview images, and webcam footage via openCV. Suprisingly the only frustrating part was installing and making sure everything ran on vscode, but after that was dealt with, everything was smooth from there on! 
+
+Recap on how to preview an img with opencv 
+
+```python
+import cv2 
+import numpy as np
+
+img = cv2.imread('photos/cat.jpg')
+
+
+cv2.imshow('Cat', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+<img width="767" height="745" alt="Screenshot 2026-03-21 at 5 57 39 PM" src="https://github.com/user-attachments/assets/4ce0bbdd-7568-4ed1-ba11-4f880189f2b7" />
+
+How to make a rectangle in open cv 
+
+```python
+cv2.rectangle(blank, (0,0), (250,500), (255,0,0), thickness=4)
+cv2.imshow('rectangle2', blank)
+cv2.waitKey(0)
+cv2.destroyAllWindows() 
+```
+How to make a square in open cv 
+
+```python
+cv2.rectangle(blank, (0,0), (250,250), (255,0,0), thickness=4)
+cv2.imshow('rectangle2', blank)
+cv2.waitKey(0)
+cv2.destroyAllWindows() 
+```
+
+How to make a circle in open cv 
+
+```python
+blank = np.zeros((500, 500, 3), dtype='uint8')
+cv2.circle(blank, (250,250), 40, (0,0,255), thickness=-1)
+cv2.imshow('circle', blank)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+<img width="1420" height="773" alt="Screenshot 2026-03-21 at 5 24 52 PM" src="https://github.com/user-attachments/assets/398f39df-aecf-408d-9cb5-bfd42200749e" />
+
+Recap on how to preview webcam footage 
+
+```python
+import numpy as np
+import cv2
+
+cap = cv2.VideoCapture(0)
+
+while True: 
+    success,frame=cap.read() 
+    if success:
+        cv2.imshow('Video',frame)
+
+    if cv2.waitKey(1) & 0xFF == ord('e'):
+        break 
+
+cap.release() 
+cv2.destroyAllWindows()
+```
+
+<img width="1395" height="720" alt="Screenshot 2026-03-21 at 5 11 32 PM" src="https://github.com/user-attachments/assets/629fc38b-9f22-4fff-931c-9fac231faaf5" />
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
