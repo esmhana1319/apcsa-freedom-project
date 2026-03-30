@@ -177,7 +177,17 @@ cv2.destroyAllWindows()
 
 <img width="1395" height="720" alt="Screenshot 2026-03-21 at 5 11 32 PM" src="https://github.com/user-attachments/assets/629fc38b-9f22-4fff-931c-9fac231faaf5" />
 
+3/30/26
 
+In my previous learning log and blog, I went over drawing, previewing images, and displaying webcam footage. One thing I was curious about from the tinkering I did was how to display footage from a web camera separate from the device coded on; ie not the built in one. 
+
+[ video link ](https://youtu.be/FygLqV15TxQ?si=C_mf6O_U9VPAlGjS)
+
+This video was one of the ones recommended my way via the key search alongside a couple questions similar to mine that were answered on stack overflow. 
+
+The solution to my query is very simple in actuality - usually to preview we use cap.cv2.VideoCapture(PATH) where in my case from before, PATH was represented by the number 0 - in this video Nicholas showcases that in order to connect to a USB connected webcam, you can just trouble shoot other numbers until the code and .imshow(frame) returns the visual you are trying to see. Once the webcam I ordered arrives, I’ll demo this and upload what I see! 
+
+  
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
