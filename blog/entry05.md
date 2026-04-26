@@ -71,7 +71,76 @@ Altogether it made a program that ran like this
 
 (the footage exceeds 10mb so i will simply have to explain that in the video the bounding box selected on the perfume bottle follows it as i move it across the screen) 
 
+### Sources 
 
+##### Previous 
+1. [Swift](https://developer.apple.com/ios/get-started/) Documentation; this is where i got to learn how it works and what kind of things i can create with this tool.
+
+2. [OpenCV](https://docs.opencv.org/4.x/d0/d3d/tutorial_general_install.html) Documentation; ive been using [freecodecamps course](https://www.freecodecamp.org/news/opencv-full-course/) to learn the wraps of how it works along with their youtube tutorials
+
+3. [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) Documentation; Aswell as [this website](https://chuoling.github.io/mediapipe/) which ive been using to get started
+
+4. [TensorFlow](https://www.tensorflow.org/) Documentation, along with [this website](https://www.geeksforgeeks.org/python/introduction-to-tensorflow/) that ive been using to get the hang of it
+
+5. VSCODE - this is the ide we have been using during meetings to work with ai
+   
+6. GROQ - the website we have been using to access and create api keys that can be used within our code
+   
+7. [NeuralNine](https://www.youtube.com/watch?v=72s6hJwyfDg)  and  [FireShips](https://youtu.be/PeMlggyqz0Y?si=-9MhlJIidMM3NJRe)  crash course videos on TensorFlow and Machine Learning Models 
+
+
+8. [stack overflow](https://stackoverflow.com) has helped me significantly in learning how to debug certain errors id come across as well as find good alternatives throughout the process 
+
+9. [Free Code Camps video on TensorFlow](https://www.youtube.com/watch?v=tPYj3fFJGjk&t=4769s) which is a 7 hour long course on making a machine learning model with TensorFlow
+
+10. [Standford Universitys dataset on titanic survival](titanic.csv) which i used as a temporary alternative to the one provided by google which was blocked on my school computer 
+
+11. [freecodecamps course](https://www.freecodecamp.org/news/opencv-full-course/) but specifically their [video](https://www.youtube.com/watch?v=oXlwWbU8l2o) from 0:00 to 31:56
+
+12. [this video](https://www.youtube.com/watch?v=0cbPPxS3hrY) on how to preview webcam footage, that i had to pull up after the video i was following went past the details to quick for me to follow 
+
+#### current 
+
+1. [this tutorial on opencv csrt](https://www.youtube.com/watch?v=wdZGcKh1fh4)
+
+2. [open cvs intro to csrt](https://docs.opencv.org/3.4/d2/da2/classcv_1_1TrackerCSRT.html)
+
+### EDP 
+
+The steps of the Engineering and design process consist of... 
+
+#### 1. Defining the problem [x]
+   
+#### 2.Research the problem [x]
+
+#### 3.Brainstorm possible solutions [x]
+
+#### 4.Plan the most promising solution [x]
+
+#### 5.Create a prototype [x]
+
+#### 6.Test and evaluate the prototype [x] 
+
+#### 7.Improve as needed [ ]
+
+#### 8.Communicate the results [ ]
+
+   Currently, i am on step 5 through 7. Im working on creating a working prototype and testing as needed to improve it. 
+
+  ### Skills 
+
+   A skill ive developed was exploring possible solutions. I didnt know what my final MVP should look like, so i explored different methods i could use to make a working tracker and settled on csrt
+```
+developed skill *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  exploring solutions lvl 8
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+```
+   Another skill ive developed was making features to help with debugging, the program itself runs slow, so at times i wasnt sure whether it was laggy or bugging; making a fps tracker helped a lot with that
+```
+developed skill *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  debugging lvl 7
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+```
 
 
 
